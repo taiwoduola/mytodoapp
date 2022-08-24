@@ -1,0 +1,21 @@
+.taskFormContainer {
+  width: 100%;
+  height: inherit;
+  position: relative;
+
+  .taskHeader {
+    font-size: 600;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: absolute;
+    left: 36%;
+    transform: translateX(-36%);
+  }
+
+  .taskFormComp {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+  }
+}

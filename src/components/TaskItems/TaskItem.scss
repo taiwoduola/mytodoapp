@@ -1,0 +1,51 @@
+.taskItem {
+  border: 0.2rem solid black;
+  width: 80%;
+  border-radius: 3rem;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin: 0 auto;
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .taskName {
+    font-size: 1.5rem;
+    font-weight: 500;
+    &--name {
+      font-size: 1rem;
+      display: block;
+    }
+  }
+  .taskDate {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    &--date {
+      font-size: 1rem;
+      display: block;
+    }
+  }
+  .startTime {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    &--start {
+      font-size: 1rem;
+      display: block;
+    }
+  }
+  .endTime {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    &--end {
+      font-size: 1rem;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.App {
+  display: grid;
+  grid-template-columns:
+    [full-start]1fr [center-col-start] repeat(
+      8,
+      [col-start] minmax(min-content, 14rem) [col-end]
+    )
+    [center-col-end] 1fr [full-end];
+
+  .mytodoapp {
+    grid-column: center-col-start / center-col-end;
+  }
+}
