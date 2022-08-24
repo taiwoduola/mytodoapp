@@ -15,37 +15,41 @@
 
   .taskName {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     &--name {
       font-size: 1rem;
       display: block;
+      font-weight: normal;
     }
   }
   .taskDate {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
 
     &--date {
       font-size: 1rem;
       display: block;
+      font-weight: normal;
     }
   }
   .startTime {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
 
     &--start {
       font-size: 1rem;
       display: block;
+      font-weight: normal;
     }
   }
   .endTime {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
 
     &--end {
       font-size: 1rem;
       display: block;
+      font-weight: normal;
     }
   }
 }
